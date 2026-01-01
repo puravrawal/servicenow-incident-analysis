@@ -2,6 +2,9 @@
 
 This project analyzes IT Service Desk performance using a ServiceNow-style incident event log dataset, with a focus on data transformation, SLA metrics, and operational insights.
 
+## Dashboard
+- Tableau Public: https://public.tableau.com/views/ITServiceDeskPerformance/ITServiceDeskPerformanceDashboard
+
 ## Dataset
 - Source: Kaggle – Incident Event Log Dataset  
 - Link: https://www.kaggle.com/datasets/mithilkotawadekar/incident-event-log-dataset  
@@ -20,3 +23,4 @@ This project analyzes IT Service Desk performance using a ServiceNow-style incid
 
 ## Project Status
 Built independently as a self-learning project inspired by IT Support and ServiceNow workflows.
+
