@@ -1,3 +1,23 @@
+/*
+IT Service Desk Incident Analysis – SQL ETL Pipeline
+
+Purpose:
+Transform ServiceNow-style event log data into an incident-level dataset
+for IT Service Desk performance analysis.
+
+Key Steps:
+1. Identify correct data grain (incident-level from event-level logs)
+2. Clean and standardize timestamps
+3. Handle missing and placeholder values
+4. Correct negative or invalid resolution durations
+5. Create analytics-ready tables for KPI calculation
+
+Final Output:
+Incident-level dataset used for SLA breach analysis and Tableau dashboards
+*/
+
+
+
 USE sql_etlproject;
 SELECT COUNT(*) FROM incident_event_log_dataset;
 
